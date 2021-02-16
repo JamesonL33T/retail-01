@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  background: rgb(175, 136, 190);
+}
+
+body h1 {
+  text-align: center;
+  color: #fff;
+}
+body a {
+  font-size: 24px;
+  color: azure;
+}
+
+body p {
+  color: blue;
+  color: 20px;
+}
+
+.grid-collection {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.grid-product {
+  display: grid;
+}
+
+img:hover {
+  filter: grayscale(100%);
+}
